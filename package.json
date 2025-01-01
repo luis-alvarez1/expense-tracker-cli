@@ -1,0 +1,23 @@
+{
+    "name": "expense-tracker-cli",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "rimraf dist && tsc && node dist/index.js",
+        "build": "tsc"
+    },
+    "bin": {
+        "expense-tracker-cli": "dist/index.js"
+    },
+    "keywords": [],
+    "author": "Luis Alvarez",
+    "license": "MIT",
+    "description": "A CLI tool to manage expenses.",
+    "devDependencies": {
+        "typescript": "^5.7.2"
+    },
+    "dependencies": {
+        "rimraf": "^6.0.1"
+    }
+}
