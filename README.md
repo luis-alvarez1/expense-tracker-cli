@@ -118,4 +118,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 -   Luis Alvarez, Dec. 2024.
 
-https://roadmap.sh/projects/github-user-activity
+https://roadmap.sh/projects/expense-tracker
