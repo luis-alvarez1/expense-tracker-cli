@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-import { CLIHandler } from './CLI/CLIHandler';
+
+import { CLIHandler } from './CLI/CLIHandler.js';
 
 const cli = new CLIHandler();
 

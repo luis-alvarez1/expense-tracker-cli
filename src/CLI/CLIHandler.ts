@@ -1,7 +1,12 @@
-import { Command } from 'commander';
+import { CommanderHandler } from '../util/CommanderHandler.js';
 
 export class CLIHandler {
+    commanderHandler: CommanderHandler;
+    constructor() {
+        this.commanderHandler = new CommanderHandler();
+    }
     run() {
-        const program = new Command();
+        this.commanderHandler.setup();
+        this.commanderHandler.registerOptions();
     }
 }
